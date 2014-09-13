@@ -1,7 +1,7 @@
 KeyFinder
 =========
 
-KeyFinder is a simple application that finds resource key strings in source files.
+KeyFinder is a simple Windows console application that finds resource key strings in source files.
 
 
 ## The Motivation and the Problem
@@ -18,7 +18,9 @@ The function names can be different but the common point is that these functions
 In the development phase of a multi-lingual application, some of the keys may  not be localized. So, we need to find these unlocalized keys. Before this, the list of all keys can be useful. 
 
 ## How It Works
-This tool extracts the resource keys in all source files in the directories and generates a file (Excel or text file) that includes the matches which are found by predefined search patterns (regular expressions.
+It's a Windows console application. The parameters are defined in the configuration file.
+
+It extracts the resource keys in all source files in the directories and generates a file (Excel or text file) that includes the matches which are found by predefined search patterns (regular expressions.
 
 ### Configuration
 The configuration parameters are in the ResourceUtilities.exe.config.
