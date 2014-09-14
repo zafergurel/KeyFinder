@@ -1,0 +1,3 @@
+﻿Localize(?<type>(GlobalFormatted)|(Global)|(Local)|(Formatted))\((?<key>("[^"]+")|([^'"][^)]+))\)
+(?<type>l10n).getMessage\((?<key>(\'[^']+\')|([^'"][^)]+))\)
+(?<type>l10n).getMessage\((?<key>"[^"]+")\)

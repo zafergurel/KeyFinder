@@ -6,7 +6,7 @@ KeyFinder is a simple Windows console application that finds resource key string
 
 ## The Motivation and the Problem
 
-I use some functions to localize my applications. Some examples are as follows:
+Developers use some functions to localize their applications. Some examples are as follows:
 > LocalizeHelper.Localize("Save and Continue")
 
 > l10n.getMessage("Are you sure to delete?")
@@ -32,11 +32,12 @@ The configuration parameters are in the ResourceUtilities.exe.config.
 * **FileFilter**: The extensions of the code files. Example: *.cs;*.cshtml;*.js
 * **OutputFile**: The output file can be in two formats. If the extension is xlsx, an excel file is generated. If it's not, then a text file including xml output is generated.
 * **OpenOutputFileAfterProcess**: Set this to true if you want the output file to be opened automatically after extraction process is finished.
+* **SearchPatternFile**: The search patterns (regular expressions) are in this file.
 
 ### Search Patterns
 
-The search patterns (regular expressions) are in patterns.txt.
-You can find some examples in the file. Each search pattern should contain a named group, key.
+The search patterns are regular expressions and you can put every pattern that fits your needs in the search pattern file. The path of this file should be configured in the configuration file.
+You can find some examples in the test folder in the patterns.txt file. Each search pattern should contain a named group, key.
 An example is as follows:
 
 ```sh

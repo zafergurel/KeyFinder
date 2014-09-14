@@ -1,0 +1,25 @@
+﻿<html>
+    <head>
+        <title>@LocalizeGlobal("welcome")</title>
+        <script type="text/javascript" src="js/sample.js"></script>
+        @{
+            var res_formatted_welcome = "Welcome {0}";
+            var anotherText = LocalizeGlobal("Another text in cshtml");
+        }
+    </head>
+    <body>
+        <h1>@LocalizeGlobal("Welcome")</h1>
+        <p>
+            @LocalizeFormatted(res_formatted_welcome, SessionVariables.Username)
+        </p>
+        <p>
+            @LocalizeLocal("This is a sample cshtml file.");
+        </p>
+        <p>
+            <script>
+                alert(welcomeText);
+                console.log(l10n.getMessage('another javascript text in html'));
+            </script>
+        </p>
+    </body>
+</html>
