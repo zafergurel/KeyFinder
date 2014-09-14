@@ -34,3 +34,9 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# user-defined
+bin
+obj
+KeyFinder.csproj.user
+KeyFinder.v11.suo
