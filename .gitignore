@@ -40,3 +40,5 @@ bin
 obj
 KeyFinder.csproj.user
 KeyFinder.v11.suo
+
+Test/~$output.xlsx
