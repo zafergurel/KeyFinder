@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KeyFinder
-
 {
     class KeyMatch
     {
@@ -16,5 +11,4 @@ namespace KeyFinder
         public string Type { get; set; }
         public bool IsVariable { get; set; }
     }
-
 }
